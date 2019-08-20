@@ -1,0 +1,22 @@
+{
+  "@@last_modified": "2019-08-14T20:42:03.052084",
+  "title": "GitDemoApp",
+  "@title": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "D {name} Client",
+  "@home": {
+    "description": "one desc message",
+    "type": "text",
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "login": "Login",
+  "@login": {
+    "description": "login button title",
+    "type": "text",
+    "placeholders": {}
+  }
+}

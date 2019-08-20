@@ -1,0 +1,22 @@
+{
+  "@@last_modified": "2019-08-15T16:46:03.852969",
+  "title": "<title>",
+  "@title": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "D {name}",
+  "@home": {
+    "description": "one desc message",
+    "type": "text",
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "login": "<login>",
+  "@login": {
+    "description": "login button title",
+    "type": "text",
+    "placeholders": {}
+  }
+}
