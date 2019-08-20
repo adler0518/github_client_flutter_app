@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:github_client_app/common/Global.dart';
+import 'package:github_client_flutter_app/common/Global.dart';
 import 'app.dart';
 
 void main() => Global.init().then((e) => runApp(App())) ;

@@ -7,8 +7,8 @@ import '../l10n/MyLocalizations.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:flutter/cupertino.dart';
 import '../common/Network.dart';
-import 'package:github_client_app/widgets/RepoItem.dart';
-import 'package:github_client_app/widgets/MyDrawer.dart';
+import 'package:github_client_flutter_app/widgets/RepoItem.dart';
+import 'package:github_client_flutter_app/widgets/MyDrawer.dart';
 
 class HomeRoute extends StatefulWidget {
   @override
@@ -135,9 +135,9 @@ class _HomeRouteState extends State<HomeRoute> {
         onRefresh: _onRefresh,
         onLoading: _onLoading,
         child: ListView.builder(
-          itemBuilder: (c, i) => RepoItem(items[i]),
+          itemBuilder: (c, i) => RepoItem(items.length > 0 ? items[i] : null),
 //          itemExtent: 100.0,
-          itemCount: items.length,
+          itemCount: items.length > 0 ? items.length : 1,
         ),
       );
     }

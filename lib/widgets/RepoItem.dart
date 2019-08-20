@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import '../models/index.dart';
 import '../common/ShareModel.dart';
 import '../l10n/MyLocalizations.dart';
-import 'package:github_client_app/common/gmAvatar.dart';
+import 'package:github_client_flutter_app/common/gmAvatar.dart';
 
 class RepoItem extends StatefulWidget {
-  RepoItem(this.repo) : super(key: ValueKey(repo.id));
+  RepoItem(this.repo) : super(key: ValueKey(repo!=null ? repo.id : 'notify1'));
 
   final Repo repo;
 
@@ -20,6 +20,18 @@ class _RepoItemState extends State<RepoItem> {
   @override
   Widget build(BuildContext context) {
     var subtitle;
+    if (widget.repo == null) {
+      return Center(
+        child: Padding(
+          padding: EdgeInsets.all(50),
+          child: Text('下拉加载数据',
+              style: new TextStyle(color: Colors.grey,
+              fontSize: 28.0,
+              fontWeight: FontWeight.w500)),
+        ),
+      );
+    }
+
     return Padding(
       padding: const EdgeInsets.only(top: 8.0),
       child: Material(

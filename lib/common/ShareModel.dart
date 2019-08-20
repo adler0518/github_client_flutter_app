@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
-import 'package:github_client_app/models/index.dart';
+import 'package:github_client_flutter_app/models/index.dart';
 import 'Global.dart';
 
 

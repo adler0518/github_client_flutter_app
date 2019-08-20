@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:github_client_app/common/Global.dart';
-import 'package:github_client_app/l10n/MyLocalizations.dart';
-import 'package:github_client_app/models/index.dart';
+import 'package:github_client_flutter_app/common/Global.dart';
+import 'package:github_client_flutter_app/l10n/MyLocalizations.dart';
+import 'package:github_client_flutter_app/models/index.dart';
 import 'package:provider/provider.dart';
-import 'package:github_client_app/common/ShareModel.dart';
-import 'package:github_client_app/common/Network.dart';
+import 'package:github_client_flutter_app/common/ShareModel.dart';
+import 'package:github_client_flutter_app/common/Network.dart';
 import 'package:toast/toast.dart';
 
 class LoginRoute extends StatefulWidget {

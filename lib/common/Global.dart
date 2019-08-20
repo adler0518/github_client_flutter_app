@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:github_client_app/models/index.dart';
-import 'package:github_client_app/common/Cache.dart';
-import 'package:github_client_app/common/Network.dart';
+import 'package:github_client_flutter_app/models/index.dart';
+import 'package:github_client_flutter_app/common/Cache.dart';
+import 'package:github_client_flutter_app/common/Network.dart';
 
 // 提供四套可选主题色
 const _themes = <MaterialColor>[

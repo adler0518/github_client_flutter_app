@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'common/ShareModel.dart';
 import 'l10n/index.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:github_client_app/routes/index.dart';
+import 'package:github_client_flutter_app/routes/index.dart';
 
 
 class App extends StatelessWidget {

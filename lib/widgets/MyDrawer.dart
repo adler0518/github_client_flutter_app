@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:github_client_app/common/ShareModel.dart';
-import 'package:github_client_app/l10n/MyLocalizations.dart';
-import 'package:github_client_app/common/gmAvatar.dart';
+import 'package:github_client_flutter_app/common/ShareModel.dart';
+import 'package:github_client_flutter_app/l10n/MyLocalizations.dart';
+import 'package:github_client_flutter_app/common/gmAvatar.dart';
 
 
 class MyDrawer extends StatelessWidget {

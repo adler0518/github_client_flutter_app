@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:intl/intl.dart';
 import 'package:flutter/widgets.dart';
 
-import 'package:github_client_app/l10n/messages_all.dart';
+import 'package:github_client_flutter_app/l10n/messages_all.dart';
 
 class MyLocalizations {
   MyLocalizations(this.locale);
