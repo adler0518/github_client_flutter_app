@@ -17,3 +17,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 
+
+Step1: flutter packages get
+Step2: Android studio run
